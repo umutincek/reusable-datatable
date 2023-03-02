@@ -1,0 +1,94 @@
+.app {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #fafafa;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.88);
+  cursor: pointer;
+}
+
+.table th:hover {
+  background-color: #f0f0f0;
+}
+
+.table .table-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thead-icon {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.thead-icon:hover {
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.check-column {
+  width: 20px;
+}
+
+.row-selected > td {
+  background: #e6f4ff;
+}
+
+.table-header {
+  display: flex;
+}
+
+.search-input,
+.search-filter-list {
+  margin: 20px 0;
+  padding: 10px;
+  width: 25%;
+}
+
+.search-filter-list {
+  margin-right: 10px;
+}
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 650px) {
+  .table-header {
+    flex-direction: column;
+  }
+  .search-input,
+  .search-filter-list {
+    width: 90%;
+  }
+}
