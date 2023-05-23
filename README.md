@@ -1,5 +1,5 @@
-# havas-assignment-datatable
-Reusable Datatable Component for Havas CX Assignment with React and TypeScript
+# reusable-datatable
+Reusable Datatable Component with React and TypeScript
 
 Project Usage
 
